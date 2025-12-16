@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: python-pod
+spec:
+  containers:
+  - name: python-container
+    image: yourdockerhubusername/python-app
+    ports:
+    - containerPort: 5000
